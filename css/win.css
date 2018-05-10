@@ -1,0 +1,57 @@
+html {
+     box-sizing: border-box;
+}
+ *, *::before, *::after {
+     box-sizing: inherit;
+}
+ html, body {
+     width: 70%;
+     height: 50%;
+     margin: 0;
+     padding: 0;
+}
+ body {
+     background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
+     font-family: 'Coda', cursive;
+}
+ .container {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+     position: absolute;
+     width: 60%;
+     padding: 50px;
+     margin-top: 10%;
+     margin-left: 20%;
+}
+ .check {
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     font-size: 50px;
+}
+ h1 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 70px;
+     color: cadetblue;
+     margin: auto;
+}
+ h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 70px;
+     color:darksalmon;
+}
+ span{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     color: cadetblue;
+}
+ div{
+     margin:20px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     color: cadetblue;
+}
+ 
